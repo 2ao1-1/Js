@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: #49ca8a;
+  /* font-family: "04b_30"; */
+}
+.container {
+  width: 500px;
+  margin: 20px auto;
+  background: #f8f7f3;
+  padding: 15px;
+  box-shadow: 5px 5px 0 0 #000;
+  display: flex;
+  flex-wrap: wrap;
+}
+h1 {
+  color: #222;
+  margin-bottom: 15px;
+}
+#task {
+  padding: 15px;
+  width: 80%;
+  border: #49ca8a;
+}
+#addTaskBtn {
+  width: 20%;
+  border: 0;
+  background: #ced3ff;
+}
+#addTaskBtn:hover {
+  background: #a0aaff;
+}
+
+/* task list */
+#taskList {
+  width: 500px;
+  margin: 20px auto;
+
+  list-style: none;
+}
+li {
+  margin: 10px 0;
+  background: #f8f7f3;
+  color: #222222;
+  padding: 15px;
+  box-shadow: 5px 5px 0 0 #000;
+}
+li > button {
+  background: #a0aaff;
+  color: #222;
+  font-weight: bolder;
+  border: 0;
+  float: right;
+  width: 15px;
+  height: 15px;
+  box-shadow: 2px 2px 0 0 #222;
+}
+.completed {
+  text-decoration: line-through;
+  background: #ffbda7;
+}
